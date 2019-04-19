@@ -1,0 +1,14 @@
+/*************************************************************
+ Nome: Exemplo3
+ Descricao: exemplo demonstra uso de componentes visuais
+ Autor: Silvano Malfatti
+ Data: 23/07/2018
+ Local: TCE
+ **************************************************************/
+
+"title" = "Tocha Movel";
+"red" = "Verm";
+"green" = "Verd";
+"purple" = "Mage";
+"yellow" = "Amar";
+"white" = "Bran";

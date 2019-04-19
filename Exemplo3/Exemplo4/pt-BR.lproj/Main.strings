@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "MOBO TORCH"; ObjectID = "353-jv-4d4"; */
+"353-jv-4d4.text" = "MOBO TORCH";
+
+/* Class = "UISegmentedControl"; IDB-t5-fYp.segmentTitles[0] = "Red"; ObjectID = "IDB-t5-fYp"; */
+"IDB-t5-fYp.segmentTitles[0]" = "Red";
+
+/* Class = "UISegmentedControl"; IDB-t5-fYp.segmentTitles[1] = "Green"; ObjectID = "IDB-t5-fYp"; */
+"IDB-t5-fYp.segmentTitles[1]" = "Green";
+
+/* Class = "UISegmentedControl"; IDB-t5-fYp.segmentTitles[2] = "Purple"; ObjectID = "IDB-t5-fYp"; */
+"IDB-t5-fYp.segmentTitles[2]" = "Purple";
+
+/* Class = "UISegmentedControl"; IDB-t5-fYp.segmentTitles[3] = "Yellow"; ObjectID = "IDB-t5-fYp"; */
+"IDB-t5-fYp.segmentTitles[3]" = "Yellow";
+
+/* Class = "UISegmentedControl"; IDB-t5-fYp.segmentTitles[4] = "White"; ObjectID = "IDB-t5-fYp"; */
+"IDB-t5-fYp.segmentTitles[4]" = "White";

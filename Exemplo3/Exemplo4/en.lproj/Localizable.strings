@@ -1,0 +1,14 @@
+/*************************************************************
+ Nome: Exemplo3
+ Descricao: exemplo demonstra uso de componentes visuais
+ Autor: Silvano Malfatti
+ Data: 23/07/2018
+ Local: TCE
+ **************************************************************/
+
+"title"= "MoboTorch";
+"red" = "Red";
+"green" = "Green";
+"purble" = "Purble";
+"yellow" = "Yellow";
+"white" = "White";

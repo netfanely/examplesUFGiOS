@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="XNL-Am-HD3">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Perfil-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Exemplo10" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.58141213329999997" green="1" blue="0.6825680542" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Perfil" image="perfil" id="hdU-z3-1ka"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Cardapio-->
+        <scene sceneID="TjP-6W-g0i">
+            <objects>
+                <viewController id="LZo-KD-fDE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jci-HA-XnD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.65355079212774092" blue="0.13393778675185519" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="jmD-4g-Ubs"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Cardapio" image="cardapio" id="zEn-xi-T5H"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="asO-px-I9E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-884" y="905"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Gzz-0j-7Sm">
+            <objects>
+                <tabBarController id="XNL-Am-HD3" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WGM-6A-Zda">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Ntk-rp-wZn"/>
+                        <segue destination="LZo-KD-fDE" kind="relationship" relationship="viewControllers" id="Bfv-qt-FC4"/>
+                        <segue destination="agS-F9-U3p" kind="relationship" relationship="viewControllers" id="k00-l6-PSS"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HYI-QN-2Au" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-841" y="125"/>
+        </scene>
+        <!--Sobre-->
+        <scene sceneID="m9d-oA-byY">
+            <objects>
+                <viewController id="agS-F9-U3p" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UFn-xv-jHD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.34761993848081096" blue="0.013344980115548855" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="qvR-HN-5v7"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Sobre" image="info" id="DaE-wb-vum"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kPf-Fm-KSh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-44" y="904"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cardapio" width="26" height="26"/>
+        <image name="info" width="26" height="26"/>
+        <image name="perfil" width="24" height="24"/>
+    </resources>
+</document>
